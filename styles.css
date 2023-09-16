@@ -1,0 +1,138 @@
+body{
+    font-family: 'Cormorant Garamond', serif;
+    font-weight:700;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+
+.img{
+    display: flex;
+    width:35%;
+    height: 95%;
+    margin: 1% 0% 1% 1%;
+    background-size:auto;
+    background: url(./images/9070071.png) no-repeat center;
+    align-content: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.img-description{
+    margin-top: auto;
+    margin-left: 10px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    font-size: 100%;
+    color:black;
+    font-weight: 600;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    height: 95%;
+    margin: 1% 1% 1% 0%;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.form-info{
+    width: 100%;
+    height: 25%;
+    margin-top: 40px;
+    margin-bottom:auto;
+    font-size:25px;
+    font-weight:bolder;
+    padding-left: 10%;
+
+}
+
+.inputs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-right: 20%;
+
+}
+
+.second-part{
+    display: block;
+    width: 100%;
+    height: 45%;
+    background-color: lightgray;
+}
+
+.second-part > h1 {
+    padding-left: 5%;
+}
+
+.third-part {
+    width: 100%;
+    height: 30%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.third-part > .content{
+    padding-left: 5%;
+    padding-top: 5%;
+   
+}
+
+.btn{
+    cursor: pointer;
+    display: flex;
+    border-radius: 6px;
+    font-size: 20px;
+    background-color: aqua;
+}
+
+.sign{
+    font-size: 20px;
+}
+
+.form-label{
+    font-weight: 900;
+    font-size: 15px;
+    display: block;
+    transition: all 0.5s;
+    transform: translateY(-3rem);
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+
+.form-input{
+    border: 2px solid gray;
+    color: #3333;
+    font-size: 1.2rem;
+    padding: 0.2rem 0.2rem;
+    border-radius: 0.2rem;
+    width: 100%;
+    display: block;
+    justify-content: space-evenly;
+    transition: all 0.5s;
+    margin-top: 5%;
+    padding-right: 10px;
+    
+}
+
+.form-input:focus{
+    transition: 0.2s;
+    outline: none;
+    border: 2px solid blue;
+}
+
+.form-input:placeholder-shown {
+    
+    
+}
